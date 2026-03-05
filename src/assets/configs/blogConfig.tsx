@@ -32,7 +32,7 @@ const blogConfig: BlogItem[] = [
             },
             {
                 name: "repo",
-                url: "https://medium.com/@abdulrahmanibrahim.ish/building-a-rotating-3d-cube-renderer-in-c-from-scratch-e2b889a89c2be",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/WireCube",
                 icon: <AiFillGithub />
             }
         ],
@@ -60,7 +60,7 @@ const blogConfig: BlogItem[] = [
         description: "A Python-based Caesar Cipher decryption tool that brute-forces all possible shifts to automatically decrypt encrypted messages.",
         target: "_blank"
     },
-    
+
     {
         id: "blog-0",
         title: "Building an AutoML Convolutional Neural Network with Pytorch",
