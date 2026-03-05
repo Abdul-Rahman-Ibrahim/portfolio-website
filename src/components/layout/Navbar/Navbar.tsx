@@ -77,7 +77,7 @@ const Navbar = () => {
           <button
             onClick={toggleTheme}
             className={`p-3 rounded-2xl cursor-pointer transition-all shadow-sm border border-black/10 dark:border-white/10 hover:scale-110 active:scale-95 ${
-                theme === 'light' ? 'bg-white text-black' : 'bg-slate-800 text-white'
+                theme === 'light' ? 'bg-slate-800 text-white' : 'bg-white text-black'
             }`}
             aria-label="Toggle Theme"
           >
