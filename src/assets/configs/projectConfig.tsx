@@ -3,6 +3,36 @@ import { AiFillGithub, AiFillEye } from "react-icons/ai";
 import { ImBook } from "react-icons/im";
 
 const projectConfig = [
+
+    {
+        id: "project-6",
+        title: "Chess Game",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/Python-Chess",
+                icon: <AiFillGithub />,
+            },
+            {
+                name: "fork",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/Python-Chess/fork",
+                icon: <BiGitRepoForked />,
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/Python-Chess/subscription",
+                icon: <AiFillEye />,
+            },
+            {
+                name: "docs",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/Python-Chess",
+                icon: <ImBook />,
+            }
+        ],
+        image:"/images/chess.jpg",
+        description: "Chess Game using Django",
+        target: "_blank"
+    },
     {
         id: "project-5",
         title: "KU Books AI",
@@ -123,17 +153,17 @@ const projectConfig = [
         links: [
             {
                 name: "repo",
-                url: "https://github.com/Abdul-Rahman-Ibrahim/portfolio",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/portfolio-website",
                 icon: <AiFillGithub />
             },
             {
                 name: "fork",
-                url: "https://github.com/Abdul-Rahman-Ibrahim/portfolio/fork",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/portfolio-website/fork",
                 icon: <BiGitRepoForked />
             },
             {
                 name: "subscription",
-                url: "https://github.com/Abdul-Rahman-Ibrahim/portfolio/subscription",
+                url: "https://github.com/Abdul-Rahman-Ibrahim/portfolio-website/subscription",
                 icon: <AiFillEye />
             }
         ],

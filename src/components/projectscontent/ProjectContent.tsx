@@ -26,9 +26,9 @@ const ProjectContent = () => {
             Featured <span className="text-purple-600">Projects</span>
           </h1>
           <div className="h-1.5 w-24 bg-purple-600 rounded-full" />
-          <p className="text-slate-500 dark:text-gray-400 max-w-2xl text-lg font-medium">
+          {/* <p className="text-slate-500 dark:text-gray-400 max-w-2xl text-lg font-medium">
             A collection of technical challenges I&apos;ve solved, ranging from full-stack applications to open-source tools.
-          </p>
+          </p> */}
         </motion.div>
       <motion.div 
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto"

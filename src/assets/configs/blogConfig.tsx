@@ -20,6 +20,27 @@ interface BlogItem {
 }
 
 const blogConfig: BlogItem[] = [
+
+        {
+        id: "blog-2",
+        title: "Rotating 3D Cube Renderer in C (From Scratch)",
+        links: [
+            {
+                name: "article",
+                url: "https://medium.com/@abdulrahmanibrahim.ish/building-a-rotating-3d-cube-renderer-in-c-from-scratch-e2b889a89c2b",
+                icon: <SiMedium />
+            },
+            {
+                name: "repo",
+                url: "https://medium.com/@abdulrahmanibrahim.ish/building-a-rotating-3d-cube-renderer-in-c-from-scratch-e2b889a89c2be",
+                icon: <AiFillGithub />
+            }
+        ],
+        image: "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*rZTtJ7-ito78fiFC.png",
+        description: "A cube renderer in C",
+        target: "_blank"
+    },
+
     {
         id: "blog-1",
         title: "Decrypting the Caesar Cipher with Python: A Step-by-Step Guide",
@@ -39,6 +60,7 @@ const blogConfig: BlogItem[] = [
         description: "A Python-based Caesar Cipher decryption tool that brute-forces all possible shifts to automatically decrypt encrypted messages.",
         target: "_blank"
     },
+    
     {
         id: "blog-0",
         title: "Building an AutoML Convolutional Neural Network with Pytorch",
